@@ -1,0 +1,37 @@
+###Subjects' information###
+idx	height(m)	weight(kg)	age(years)	gender
+1	1.740		70.3		25		male
+2	1.775		75.3		25		male
+3	1.773		70.3		25		male
+4	1.697		65.5		24		male
+5	1.706		63.0		24		male
+6	1.634		96.6		23		female
+7	1.570		43.9		22		male
+8	1.620		57.0		24		male
+9	1.692		50.0		23		male
+10	1.760		74.2		24		male
+11	1.650		70.0		28		female
+12	1.690		80.0		29		male
+
+
+###Separation of the dataset###
+Sample frequency: 40 Hz
+The dataset is divided in three parts:
+Train: Subject1 to Subject8
+Vaidation:Subject9 and Subject10
+Test: Subject11 and Subject12
+
+
+The first and last 300 samples of every activity are not used due to lack of movement at the begining and at the end of the action while starting and ending th eprocess.
+
+Every activity was splitted in samples of lenght: 128 steps and with an overlap of 50%
+
+
+###List of activities###
+1) Walking
+2) Standing
+3) Sitting
+4) Lying
+5) Walking Upstairs
+6) Walking Downstirs
+
